@@ -1,4 +1,4 @@
-# 观点
+# Perspective & Cognition
 
 
 

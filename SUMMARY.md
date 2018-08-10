@@ -6,5 +6,5 @@
 * [Aerospace](ae/README.md)
   * [Sample](ae/sample1.md)
 * [Perspective & Cognition](pc/README.md)
-  * [System Engineering of SpaceX](pc/SpaceX.md)
+  * [System Engineering of SpaceX](pc/spacex.md)
   * [The Ambition](pc/ambition.md)

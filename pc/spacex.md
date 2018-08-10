@@ -1,7 +1,10 @@
-# SpaceX对系统工程的颠覆认知
+---
+description: SpaceX 对系统工程的颠覆性认知
+---
 
-笔者按：我们曾经从教科书上、从专家的讲座里获得的“系统工程”种种教诲，有很大部分可能已经失效了。那些东西是从上个世纪五、六十年代阿波罗登月计划开始发展起来的，这套方法论创造了我们现在看到的波音、空客、登月、航母等巨型工程。然而，用埃隆马斯克的话说：“现在是21世纪！”  
+# System Engineering of SpaceX
 
+笔者按：我们曾经从教科书上、从专家的讲座里获得的“系统工程”种种教诲，有很大部分可能已经失效了。那些东西是从上个世纪五、六十年代阿波罗登月计划开始发展起来的，这套方法论创造了我们现在看到的波音、空客、登月、航母等巨型工程。然而，用埃隆马斯克的话说：“现在是21世纪！”
 
 文末有重大福利：《SpaceX内部讲义之系统工程》
 
@@ -11,8 +14,7 @@
 
 **一、时代变了**
 
-如果让你从头开始研制波音747，你会翻开一本讲述系统工程的经典教材，它会向你讲述波音公司1960年如何启动这个项目，以及1969年如何成功交付的。你会惊叹在那样一个年代，9年即可交付，这简直就是一个奇迹。在这种情绪的带动下，你也许会照搬了书上说的那套波音公司的方法论。  
-
+如果让你从头开始研制波音747，你会翻开一本讲述系统工程的经典教材，它会向你讲述波音公司1960年如何启动这个项目，以及1969年如何成功交付的。你会惊叹在那样一个年代，9年即可交付，这简直就是一个奇迹。在这种情绪的带动下，你也许会照搬了书上说的那套波音公司的方法论。
 
 **然而，时代变了。现在距离1960年将近60年过去了！**
 
@@ -44,8 +46,7 @@ SpaceX更强调每一次完整迭代之后产生的“经验”，他们认为�
 
 而SpaceX认为：迭代的核心目的是为了获取经验，根据人类认知的规律，需求纵深的挖掘应该在迭代的过程中进行，也就是“由需求层次驱动迭代”。
 
-笔者的理解是：刚开始更关注上层关键需求，对于下层的需求，可以先不关注，先采用既有的或者是成本较低的方案实现，等上层的关键需求都实现之后，再将下层需求的实现进行逐步迭代。我们看下面两张图就能明白了：  
-
+笔者的理解是：刚开始更关注上层关键需求，对于下层的需求，可以先不关注，先采用既有的或者是成本较低的方案实现，等上层的关键需求都实现之后，再将下层需求的实现进行逐步迭代。我们看下面两张图就能明白了：
 
 ![](data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==)
 
@@ -57,8 +58,7 @@ SpaceX更强调每一次完整迭代之后产生的“经验”，他们认为�
 
 SpaceX的V模型——第一轮迭代
 
-我们发现，SpaceX的V模型中，第一轮迭代时没有出现Level 3和Level 4层次的需求，但是十分强调Key Design Parameters（关键设计参数），也就是说，对于那些lower level requirements（即Level 3和Level 4的需求），等关键需求被满足和验证之后，再逐步迭代实现。  
-
+我们发现，SpaceX的V模型中，第一轮迭代时没有出现Level 3和Level 4层次的需求，但是十分强调Key Design Parameters（关键设计参数），也就是说，对于那些lower level requirements（即Level 3和Level 4的需求），等关键需求被满足和验证之后，再逐步迭代实现。
 
 设计实例：
 
@@ -66,13 +66,11 @@ SpaceX的V模型——第一轮迭代
 >
 > ![](https://mmbiz.qpic.cn/mmbiz_png/At56A9SyicgKoeoCPfYZ3w9Ub1uyZF6ib4OuYS6tXwb2RVeh0zdJ2C747o4zialqhnS2KxWTPBCLGd6IibgdYFYFAw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 >
-> 但是到了Lower Level Requirements阶段时，变成了这样：  
->
+> 但是到了Lower Level Requirements阶段时，变成了这样：
 >
 > ![](https://mmbiz.qpic.cn/mmbiz_png/At56A9SyicgKoeoCPfYZ3w9Ub1uyZF6ib4WqtZZHO3X23j4WmUkJoCEIBtmsaNdoB8bJib5zNzV5HiafuBZic17zZug/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-**四、实现低层次需求的能力**  
-
+**四、实现低层次需求的能力**
 
 这是一个十分关键的概念，我想重点说一下。
 
@@ -128,7 +126,7 @@ SpaceX一直在寻求一种平衡，为了使团队保有创新能力，他们�
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
