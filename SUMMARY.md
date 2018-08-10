@@ -2,8 +2,9 @@
 
 * [星图计划 Atlas](README.md)
 * [Artificial Intelligence](ai/README.md)
-  * [Machine Learning Algorithm Summary](ai/ML.md)
-* [Aerospace](ae/README.md)
+  * [Machine Learning Algorithm Summary](ai/ml.md)
+* [Aerospace](ae.md)
 * [Perspective & Cognition](pc/README.md)
-  * [System Engineering of SpaceX](pc/SpaceX.md)
+  * [System Engineering of SpaceX](pc/spacex.md)
   * [The Ambition](pc/ambition.md)
+
